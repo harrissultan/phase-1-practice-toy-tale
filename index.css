@@ -50,6 +50,23 @@ button {
   justify-self: center;
 }
 
+button1 {
+  position: relative;
+  background-color: #e04b52;
+  border: none;
+  border-radius: 5px;
+  height: 2rem;
+  width: 2rem;
+  color: whitesmoke;
+  font-size: 18px;
+  justify-self: right;
+}
+
+button1:hover {
+  background-color: whitesmoke;
+  border: #e04b52 solid 1px;
+  color: #e04b52;
+}
 button:hover {
   background-color: whitesmoke;
   border: #e04b52 solid 1px;
@@ -90,6 +107,15 @@ button:hover {
 
 
 .input-text {
+  border-radius: 5px;
+  height: 2rem;
+  width: 60%;
+  font-size: 18px;
+  font-family: monospace;
+  margin: 3px;
+}
+
+.input-img {
   border-radius: 5px;
   height: 2rem;
   width: 60%;
